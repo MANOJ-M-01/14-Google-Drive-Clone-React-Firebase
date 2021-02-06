@@ -1,0 +1,43 @@
+.fileCard {
+    height: 180px;
+    width: 220px;
+    border-radius: 10px;
+    border: 1px solid rgb(219, 219, 219);
+    margin-top:15px;
+}
+
+.fileCard--top {
+    height: 70%;
+    border-bottom: 1px solid rgb(219, 219, 219);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fileCard--bottom {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 30%;
+}
+
+.fileCard--bottom>p {
+    width: 90%;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+@media only screen and (max-width:680px){
+
+.fileCard {
+    height: 200px;
+    width: auto;
+    border-radius: 10px;
+    border: 1px solid rgb(219, 219, 219);
+    margin-top:15px;
+}
+.fileicon{
+    font-size: 80px !important;
+}
+}

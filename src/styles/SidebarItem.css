@@ -1,0 +1,32 @@
+.sidebarItem{
+    display: flex;
+    padding: 10px 0;
+
+    /* TRouBLe */
+    border-radius: 0 100px 100px 0;
+    padding: 15px;
+}
+
+.sidebarItem:hover{
+    background-color: rgba(0, 0, 0, 0.04);
+}
+
+.sidebarItem__arrow{
+    width: 28px;
+    margin-left: 12px;
+    
+}
+
+.sidebarItem__main{
+    display: flex;
+}
+
+.sidebarItem__main>p{
+    margin-left: 12px;
+}
+
+@media only screen and (max-width:680px){
+.sidenav_label{
+    display:none;
+}
+}
