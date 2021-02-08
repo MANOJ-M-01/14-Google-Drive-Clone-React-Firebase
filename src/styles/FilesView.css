@@ -30,13 +30,13 @@
 @media only screen and (max-width:680px){
 
     .fileView{
-        width: 77px;
+        width: 75%;
         
     }
     .fileView__row{
         display: block;
         margin-left: auto;
         margin-right: auto;
-        width: 100%;
+        width: auto;
     }
 }
